@@ -1,0 +1,55 @@
+﻿1}}. ----------------reponse avis expert
+method:POST
+URL:http://startupapps.businessroom.ci/api/v1/web/replyQuestion
+
+playload: {"id":1,"nom":"OUATTARA","prenom":"AHAMADOU","mail":"hamed.ouatara@outlook.com","profession":"Busness Manager","photo":"avatar_142456.jpeg","date_naissance":"1980-01-12","contact":"+22509897069","login":"hamed"}  
+
+
+
+2}}. -------------LIST DES MAGAZINES
+method:GET
+URL:http://startupapps.businessroom.ci/api/v1/web/getAllParution
+playload:
+
+
+3}}. ----------------Liste des messages ( startupInfo et depeches)
+method:GET
+URL:http://startupapps.businessroom.ci/api/v1/web/getAllServicesmessages
+playload:
+
+4}}. -------------------- LISTE des avis d'experts
+
+method:GET
+URL:http://startupapps.businessroom.ci/api/v1/web/getAllAvisExpert
+playload:
+
+5}}. --------------------liste des User
+method:GET
+URL:http://startupapps.businessroom.ci/api/v1/web/getAllUser
+playload:
+
+6}}. --------------------liste des souscripteur par service
+method:GET
+URL:http://startupapps.businessroom.ci/api/v1/web/getSouscripteurByService/:service_id
+playload:
+
+7}}. --------------------modifier le profile user
+method:PUT
+URL:http://startupapps.businessroom.ci/api/v1/login/UpdateProfil
+playload:{"id":1,"nom":"OUATTARA","prenom":"AHAMADOU","mail":"hamed.ouatara@outlook.com","profession":"Busness Manager","photo":"avatar_142456.jpeg","date_naissance":"1980-01-12","contact":"+22509897069","login":"hamed"} 
+
+8}}. -------------------- liste des PUBs
+method:GET
+URL:http://localhost/startupapp/api/v1/web/getAllPub
+playload:
+
+9}}. -------------------creer une pub
+method:POST
+URL:http://startupapps.businessroom.ci/api/v1/web/craetePub
+playload:{"titre":"Pub TECHNIX CARTE DONI DONI", "description":"La pub de la carte ....","date_debut":"2017-01-08","date_fin":"2017-02-08",
+   "img":"pub_technix.jpg"}
+
+10}}. -------------------- recuperer la derniere pub pour le mobile
+method:GET
+URL:http://startupapps.businessroom.ci/api/v1/mobile/getlastPub
+playload:
